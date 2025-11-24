@@ -9,29 +9,50 @@ box-sizing: border-box;
 body {
     font-family: IBM Plex Mono;
     background-color: black;
-    width: 1280px;
-    height: 700px;
+    width:1280px;
+    height:700px;
+    margin: auto; 
+}
+
+.container {
+  max-width:
+  margin: 0 auto;
+  padding:
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .banner {
-    display: fle;
-    justify-content: space-between;
-    align-items: center;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: none;
+    background-color:#1b1b1b;
+    height: 70px;
+    width: 1110px;
+    padding-left:;
+    margin-left: 85px;
+    margin-right: 85px;
 }
 
-.banner .middle-section ul{
+.nav-container ul{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:center;
+    align-items:;
     list-style: none;
-    width: 717px;
-    height: 18px;
-    margin-top: 24px;
-    margin-left: 180px;
+    padding-top: 24px;
+    padding-left:95px;
+    padding-right:298px;
+    padding-bottom: 28px;
     gap: 70px;
+    color:black
 }
 
-.banner .middle-section ul a{
+.banner .nav-links ul a{
     text-decoration: none;
     font-weight: 400;
     font-size: 14px;
@@ -40,16 +61,84 @@ body {
     color: #9c9c9c; 
 }
 
-.banner .right-section {
+.social-media-icons{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
     width: 107.54px;
     height: 17px;
-    margin-top: 26px;
-    margin-left: 992px;
+    padding-top: 0px; 
+    padding-left: 900p;
+    padding-right: 270p;
+    padding-bottom:28p;
+    margin-left:95p;
 }
 
-.banner .right-section img {
+.social-media-icons a {
     width: 18px;
     height: 17px;
-    opacity: 30%;
-    color: #ffffff
+    color: white;
+}
+
+.client-logos{
+    display: flex;
+    justify-content:center;
+    gap: 30px;
+    margin-top: 595px;
+    margin-bottom: 45px;
+    margin-left: 180px;
+    margin-right: 180px;
+
+}
+
+h2 {
+    color: white;
+}
+
+.client-logos .logo-1 {
+    width: 160px;
+    height: 60px;
+}
+
+.client-logos .logo-2 {
+    width: 160px;
+    height: 60px;
+}
+
+.client-logos .logo-3 {
+    width: 160px;
+    height: 60px;
+}
+
+.client-logos .logo-4 {
+    width: 160px;
+    height: 60px;
+}
+
+.client-logos .logo-5 {
+    width: 160px;
+    height: 60px;
+}
+
+.worked-with {
+    width: 93px;
+    height: 18px;
+    gap: 10px;
+    vertical-align: bottom;
+    display: flex;
+    justify-content: center;
+    margin-right: 1007px;
+    margin-left: 180px;
+    margin-top: 557px;
+
+}
+
+.worked-with p{
+    color: #ffffff;
+    font-weight: 400px;
+    font-style: regular;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align:
 }
