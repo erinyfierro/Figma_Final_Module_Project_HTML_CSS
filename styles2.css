@@ -10,18 +10,14 @@ body {
   margin: 0;
   font-family: IBM Plex Mono;
   background-color: black;
-
 }
 
 .container {
-  max-width:
-  margin: 0 auto;
-  padding:
+  margin: auto;
 }
 
 .site-header {
   background: rgba(49, 50, 51, 0.9);
-  padding:
   border-bottom: 1px solid #222;
   margin-left: 85px;
   margin-right: 85px;
@@ -82,11 +78,8 @@ body {
 }
 
 .hero-text {
-  flow: vertical-align;
   width: 538px;
   height: 247px;
-  
-  margin-top: ;
 }
 
 .hero-text h1 {
@@ -115,20 +108,17 @@ body {
 
 .hero-image {
   display: flex;
-  margin-right:180px;
-
+  position: absolute;
+  right: 180px;
 }
 
 .hero-image img {
   width: 350px;
   height: 350px;
-  margin-top: ;
-  margin-right:;
 }
 
 .clients {
   padding: var(--spacing) 0;
-  
 }
 
 .clients h2 {
@@ -156,13 +146,10 @@ body {
   gap: 30px;
   flex-wrap: wrap;
   list-style: none;
-  padding: 0;
-  
 }
 
 .client-logos img {
   width: 160px;
   height: 60px;
   border: 1px;
-  opacity: 0.8;
 }
